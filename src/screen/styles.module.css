@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.mainDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: antiquewhite;
+  height: 100vh;
+}
+.atmDiv {
+    width: 50%;
+    display: flex;
+    background-color: white;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.heading {
+  margin: 40px 0px;
+}
+.table{
+  margin: 40px 0px;
+}
+.input {
+  padding: 4px 10px;
+  width: 45%;
+  font-size: 18px;
+  margin-bottom: 20px !important;
+}
+.selected{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.secondaryBtnDiv {
+  margin: 40px 0px;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+.enterBtn {
+  width: 30%;
+  margin: 20px 0px !important;
+}
