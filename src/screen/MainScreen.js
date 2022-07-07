@@ -17,6 +17,7 @@ const MainScreen = () => {
     return <MuiAlert elevation={6} variant="filled" {...props} />;
   }
 
+  // set denomination 
   let denomination = [10, 20, 50, 100, 200, 500, 1000];
 
   const [amount, setAmount] = useState("");
@@ -48,6 +49,7 @@ const MainScreen = () => {
 
   let tempArray = denomination.sort((a, b) => b - a);
 
+  // custom function to handle amount 
   const handleAmount = () => {
     if (tempAmount > 0) {
       if (!selected) {
